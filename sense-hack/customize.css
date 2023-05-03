@@ -37,11 +37,11 @@
 } */
 
 .player-color {
-  background-color: #2a79d0;
+  background-color: #B8860B;
 }
 
 .player-area {
-  background: linear-gradient(0deg, #2a79d0, #000);
+  background: linear-gradient(0deg, #8B0000, #B8860B);
 }
 
 .player-card .power {
@@ -51,11 +51,11 @@
 /* Hacker Styles */
 
 .hacker-color {
-  background-color: #ce3d20;
+  background-color: #A9A9A9;
 }
 
 .hacker-area {
-  background: linear-gradient(0deg, #ce3d20, #000);
+  background: linear-gradient(0deg, #A9A9A9, #008B8B);
 }
 
 .hacker-card .power {
