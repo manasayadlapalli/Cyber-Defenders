@@ -40,7 +40,7 @@ $(window).on('load', function() {
 		loop: true,
 		nav: true,
 		dots: true,
-		navText: ['', '<img src="img/icons/solid-right-arrow.png">'],
+		// navText: ['', '<img src="img/icons/solid-right-arrow.png">'],
 		mouseDrag: false,
 		animateOut: 'fadeOut',
 		animateIn: 'fadeIn',
@@ -51,12 +51,13 @@ $(window).on('load', function() {
 
 	var dot = $('.hero-slider .owl-dot');
 	dot.each(function() {
-		var index = $(this).index() + 1;
-		if(index < 10){
-			$(this).html('0').append(index + '.');
-		}else{
-			$(this).html(index + '.');
-		}
+		$(this).html('o');
+		// var index = $(this).index() + 1;
+		// if(index < 10){
+		// 	$(this).html('0').append(index + '.');
+		// }else{
+		// 	$(this).html(index + '.');
+		// }
 	});
 
 
