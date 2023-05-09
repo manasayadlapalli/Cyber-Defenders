@@ -12,6 +12,11 @@ body {
 
 }
 
+.game-area{
+  display: flex;
+  flex-direction: column;
+}
+
 .game-board {
   height: 100%;
   position: absolute;
@@ -70,8 +75,10 @@ h1 strong {
   min-height: 235px;
   background-repeat: repeat;
   background-size: 200px;
-  height: 100vh;
-  width: 50vw;
+  /* height: 100vh;
+  width: 50vw; */
+  height: 50vh;
+  width: 100vw;
   box-sizing: border-box;
 }
 
@@ -135,6 +142,10 @@ h1 strong {
   line-height: 20px;
 }
 
+.you{
+  right: -50%;
+}
+
 .life-total {
   font-size: 20px;
   font-weight: 700;
@@ -161,24 +172,34 @@ h1 strong {
 }
 
 button.next-turn {
-  position: fixed;
+  position: absolute;
   bottom: 40px;
   transition: all .15s ease-out;
-  background: black;
+  /* background: black; */
   display: none;
+  top: -10%;
+  left: 45%;
+  border-radius: 0;
+  border: none;
+  height: 2rem;
+  background: linear-gradient(68deg, transparent 0% 10%, black 10% 30%, black 30% 83%, transparent 83% 86%, #fff 86% 90%, transparent 90%);
 }
 
 .during-game .next-turn {
   display: block;
+  width: 9rem;
+  height: 3rem;
 }
 
 button.start-game {
   position: absolute;
-  background: linear-gradient(90deg, #2a79d0, #ce3d20);
+  background: linear-gradient(90deg, #d0902a, #20ce8b);
   padding: 20px 30px;
   display: none;
-  top: 50%;
-  left:-15%;
+  /* top: 50%;
+  left:50%; */
+  top: -10%;
+  left: 45%;
 }
 
 .before-game .start-game {
@@ -235,19 +256,19 @@ button {
   padding: 8px 22px 9px 22px;
   box-sizing: border-box;
   font-weight: 700;
-  border: solid 3px white;
+  border: solid 3px orange;
   color: white;
-  background: transparent;
-  border-radius: 30px;
+  /* background: transparent; */
+  border-radius: 2rem;
   transition: all ease-out .2s;
   cursor: pointer;
   outline: none;
-  animation: buttonPulse .2s infinite ease-in-out;
+  /* animation: buttonPulse .2s infinite ease-in-out; */
 }
 
 @keyframes buttonPulse {
   50% {
-    transform: scale(1.02);
+    transform: scale(1.02)
   }
 }
 
@@ -283,14 +304,14 @@ button[disabled=true] {
   width: 140%;
   height: 0%;
   background: white;
-  animation: sheen infinite .5s ease-in-out;
+  animation: infinite .5s alternate;
   display: none;
   transform: rotate(-7deg);
 }
 
 .game-board:not(.card-selected) .player-card:hover:after {
   display: block;
-  animation: sheen .35s linear 1;
+  animation: .35s step-end 1;
 }
 
 @keyframes sheen {
@@ -332,6 +353,8 @@ button[disabled=true] {
 
 .hacker-card.showCard {
   animation: hackerShowCard .5s ease-out;
+  top: 200%;
+  left: 10%;
 }
 
 /* When the hacker card appears */
@@ -343,6 +366,8 @@ button[disabled=true] {
 
 .player-card.showCard {
   animation: playerShowCard .5s ease-out;
+  top: 200%;
+  left: 10%;
 }
 
 /* When the player card appears */
@@ -466,6 +491,7 @@ button[disabled=true] {
   position: absolute;
   right: 0;
   bottom: -10px;
+  right: 80%;
 }
 
 .player-area .thumbnail img {
