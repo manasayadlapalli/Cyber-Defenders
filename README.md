@@ -16,9 +16,9 @@ Cyber Defenders is a competitive quiz game designed to test and enhance players'
 
 Inorder to run the game we need to follow the steps below:-
 1) Clone the project
-git clone https://github.com/manasayadlapalli/Cybersecurity-Quiz-Game-.git
+```git clone https://github.com/manasayadlapalli/Cybersecurity-Quiz-Game-.git```
 
-2) Redirect to the index.html file
+2) Redirect to the ```index.html``` file
 3) Double click on it and choose the browser of your choice
 4) Click on play game
 5) Once the game is complete click on replay if you want to replay the game
