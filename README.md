@@ -3,7 +3,7 @@
 Cyber Defenders is a competitive quiz game designed to test and enhance players' knowledge of cybersecurity concepts and best practices. The goal of the game is for players to safeguard a virtual city's critical infrastructure from cyber attacks while earning points by answering cybersecurity-related questions correctly. The player with the highest score at the end of the game is crowned the ultimate Cyber Defender.
 
 ## Dashboard
-![alt text](http://url/to/img.png](https://github.com/manasayadlapalli/Cybersecurity-Quiz-Game-/blob/main/Images/Dashboard.png)
+![alt text](https://github.com/manasayadlapalli/Cybersecurity-Quiz-Game-/blob/main/Images/Dashboard.png)
 
 ## Begin Game
 ![alt text](https://github.com/manasayadlapalli/Cybersecurity-Quiz-Game-/blob/main/Images/GameStart.png)
