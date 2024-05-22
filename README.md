@@ -14,12 +14,12 @@ The Cyber Defenders game is a competitive quiz that assesses and improves player
 
 ## How to run the game:-
 
-Inorder to run the game we need to follow the steps below:-
-1) To beign we need to clone the project
+In order to run the game we need to follow the steps below:-
+1) To begin we need to clone the project
 ```git clone https://github.com/manasayadlapalli/Cybersecurity-Quiz-Game-.git```
 
 2) We will have to navigate to the ```index.html``` file
-3) To launch the game we will have to double clik on the file and choose our browser
-4) Click on button which says play game
-5) Select the options you want to and once the game is over click on restart game if you wanna restart.
-6) To end the game just close the window.
+3) To launch the game, Double click on the index.html file and choose our browser
+4) Click on the button that says play game
+5) Select the options you want to and once the game is over click on restart the game if you wanna restart.
+6) To end the game simply close the window.
